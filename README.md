@@ -1,99 +1,41 @@
-```markdown
-# AssistBot
+# Nutzungsbedingungen (Terms of Service) für den AssistBot
 
-Der **AssistBot** ist ein vielseitiger Discord-Bot, der entwickelt wurde, um die Verwaltung und Moderation von Discord-Servern zu vereinfachen. Mit einer Vielzahl an Funktionen bietet er Unterstützung für Administrator:innen und Moderator:innen, verbessert die Interaktion innerhalb der Community und sorgt für ein sicheres Server-Erlebnis.
+Dieser Bot bietet verschiedene Funktionen zur Moderation und Verwaltung von Discord-Servern. Die Nutzung des Bots unterliegt den folgenden Bedingungen:
 
----
+## 1. Funktionen
+Der AssistBot beinhaltet unter anderem die folgenden Funktionen:
+- **Willkommensnachrichten**: Sendet eine Nachricht, wenn neue Mitglieder dem Server beitreten.
+- **Moderation**: Befehle wie `/ban`, `/kick`, `/mute`, `/unmute`, `/clear` und **Modlogs**, um die Serververwaltung zu erleichtern.
+- **Hilfe-Center**: Interaktives FAQ-System für Nutzer:innen.
+- **Meldungen**: Befehle wie `/user_report` und `/report_bug` zur Bearbeitung von Vorfällen und Fehlern.
+- **Giveaway-System**: Startet und verwaltet Giveaways.
+- **Umfragen**: Erstellt Umfragen mit mehreren Antwortoptionen.
+- **Persistente Daten**: Speichert Einstellungen wie Willkommenskanäle in einer JSON-Datei.
 
-## 🎯 **Hauptfunktionen**
+## 2. Nutzungsvoraussetzungen
+- Der Bot erfordert administrative Berechtigungen für bestimmte Funktionen.
+- Einige Befehle sind ausschließlich für Benutzer:innen mit spezifischen Rollen verfügbar (z. B. `/ban` und `/kick`).
+- Der Bot ist nur mit Discord-Servern kompatibel und benötigt eine funktionierende Internetverbindung.
 
-- **Willkommensnachrichten**  
-  Begrüßt neue Mitglieder automatisch mit einer benutzerdefinierten Nachricht und erleichtert so die Integration in die Community.
+## 3. Einschränkungen
+- Der Bot darf nur für legitime und legale Zwecke verwendet werden.
+- Jeglicher Missbrauch der Moderationsfunktionen, wie unangemessene Bans oder Kicks, ist untersagt.
+- Der Bot übernimmt keine Haftung für Schäden oder Probleme, die durch falsche Konfigurationen oder unsachgemäße Nutzung entstehen.
 
-- **Moderationstools**  
-  Effektive Befehle wie `/ban`, `/kick`, `/mute`, `/unmute` und `/clear` bieten eine einfache Möglichkeit, Ordnung auf dem Server zu halten.
+## 4. Datenverarbeitung
+- Der Bot speichert serverbezogene Einstellungen (z. B. Willkommenskanäle) lokal in einer JSON-Datei.
+- Sensible Daten wie Benutzerberichte oder Meldungen werden ausschließlich in Discord-Kanälen verarbeitet und nicht extern gespeichert.
+- Der Bot respektiert die Datenschutzrichtlinien von Discord und verarbeitet nur Daten, die für die Ausführung seiner Funktionen erforderlich sind.
 
-- **Hilfe-Center**  
-  Ein interaktives FAQ-System, das häufige Fragen beantwortet und Nutzer:innen durch die Funktionen des Bots führt.
+## 5. Support und Bug-Reporting
+- Bei Problemen können Nutzer:innen die Befehle `/hilfe_center`, `/report_bug` oder den offiziellen Support-Server nutzen.
+- Fehler oder Fehlfunktionen sollten so detailliert wie möglich gemeldet werden, einschließlich Server-ID und Beschreibung des Problems.
 
-- **Meldungen und Berichte**  
-  Mit `/user_report` und `/report_bug` können Vorfälle oder technische Probleme schnell und einfach gemeldet werden.
+## 6. Lizenz und Haftungsausschluss
+- Der Bot wird "wie besehen" bereitgestellt, ohne ausdrückliche oder stillschweigende Garantien.
+- Der Entwickler übernimmt keine Verantwortung für Serverausfälle, Datenverlust oder andere Probleme, die durch die Nutzung des Bots entstehen können.
 
-- **Giveaway-System**  
-  Veranstalte spannende Giveaways, die automatisch einen Gewinner aus den Teilnehmer:innen auswählen.
-
-- **Umfragen**  
-  Erstelle interaktive Umfragen mit mehreren Antwortoptionen, um Feedback von der Community zu erhalten.
-
-- **Modlogs**  
-  Zeigt wichtige Informationen über Mitglieder wie Beitrittsdatum, Account-Erstellung und Rollen.
-
----
-
-## 🔧 **Wofür ist der Bot gedacht?**
-
-- **Effiziente Serververwaltung**  
-  Unterstützt Administrator:innen und Moderator:innen bei der Organisation und Moderation ihres Servers.
-
-- **Sicheres und geordnetes Community-Erlebnis**  
-  Der Bot sorgt dafür, dass Serverregeln eingehalten werden und Probleme schnell gemeldet und gelöst werden können.
-
-- **Interaktive Community-Features**  
-  Fördert das Engagement der Mitglieder durch Giveaways, Umfragen und personalisierte Nachrichten.
+Durch die Verwendung dieses Bots erklärst du dich mit den oben genannten Bedingungen einverstanden. Der Bot ist darauf ausgelegt, ein sicheres und geordnetes Community-Erlebnis zu fördern. Bitte nutze ihn verantwortungsbewusst.
 
 ---
-
-## 📦 **Installation**
-
-1. Lade den Code aus dem Repository herunter oder klone es mit:  
-   ```bash
-   git clone <repository-url>
-   ```
-2. Installiere die benötigten Abhängigkeiten:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Füge deinen Bot-Token in die `bot.run("YOUR_BOT_TOKEN")`-Zeile ein.
-4. Starte den Bot:  
-   ```bash
-   python bot.py
-   ```
-
----
-
-## 🚀 **Nutzung**
-
-### Wichtigste Befehle:
-- `/set_welcome` – Setzt den Kanal für Willkommensnachrichten.
-- `/ban`, `/kick`, `/mute`, `/unmute` – Moderationstools.
-- `/hilfe_center` – Öffnet das interaktive Hilfe-Center.
-- `/user_report` – Meldet Benutzer:innen.
-- `/report_bug` – Meldet Fehler.
-- `/giveaway` – Startet ein Giveaway.
-- `/poll` – Erstellt eine Umfrage.
-- `/modlogs` – Zeigt Informationen über ein Mitglied.
-
----
-
-## 📋 **Anforderungen**
-
-- Python 3.8 oder höher
-- Discord-Bibliothek (`discord.py`)
-- Administrator- oder Moderator-Rechte auf Discord-Servern für die Verwendung bestimmter Befehle.
-
----
-
-## 🌟 **Mitmachen**
-
-Wir freuen uns über Feedback, Bug-Reports oder Feature-Vorschläge! Besuche unseren offiziellen **[Support-Server](https://discord.gg/assistbot)** oder sende uns eine Nachricht an **[organisation.assistbot@gmail.com](mailto:organisation.assistbot@gmail.com)**.
-
----
-
-## 🛡️ **Lizenz**
-
-Dieser Bot steht unter der **MIT-Lizenz**. Siehe die `LICENSE`-Datei für weitere Details.
-
----
-
-Vielen Dank, dass du den AssistBot nutzt! 🎉
-```
+Für weitere Informationen oder Support: **[organisation.assistbot@gmail.com](mailto:organisation.assistbot@gmail.com)**.
